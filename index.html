@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFG Ambiguity Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CFG Ambiguity Analyzer</h1>
+            <p>Determine if a Context-Free Grammar is ambiguous by finding multiple leftmost derivations for the same string.</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <label for="cfgInput">Context-Free Grammar:</label>
+                <div class="hints">
+                    Use <code>-&gt;</code> to separate LHS and RHS.<br>
+                    Use <code>|</code> to separate multiple productions.<br>
+                    Use <code>ε</code> (or leave blank) for epsilon productions.
+                </div>
+                <textarea id="cfgInput" spellcheck="false">
+E -> E + E | E * E | i
+                </textarea>
+                <button id="analyzeBtn">Analyze Grammar</button>
+            </div>
+
+            <div id="output" class="hidden"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
