@@ -1,6 +1,6 @@
 # CFG Ambiguity Analyzer with Counterexample Generator
 
-## 📌 Overview
+## Overview
 
 This project is a web-based tool that analyzes a **Context-Free Grammar (CFG)** to determine whether it is **ambiguous**. It automatically generates strings from the grammar and identifies cases where multiple distinct derivations exist for the same string.
 
@@ -8,20 +8,20 @@ The system also classifies the **type of language** and determines whether the a
 
 ---
 
-## 🚀 Features
+## Features
 
-* ✅ Detects whether a CFG is **ambiguous**
-* 🔍 Finds the **smallest ambiguous string**
-* 🔁 Displays **two distinct derivations** for proof
-* 🧠 Classifies the **language type**
+* Detects whether a CFG is **ambiguous**
+* Finds the **smallest ambiguous string**
+* Displays **two distinct derivations** for proof
+* Classifies the **language type**
 
   * Regular Language
   * Context-Free Language (Not Regular)
-* 🔧 Identifies ambiguity type:
+* Identifies ambiguity type:
 
   * Removable Ambiguity
   * Possibly Inherent Ambiguity
-* ⚠️ Handles edge cases:
+* Handles edge cases:
 
   * Left recursion
   * Epsilon productions
@@ -30,13 +30,13 @@ The system also classifies the **type of language** and determines whether the a
 
 ---
 
-## 🧾 Problem Statement
+## Problem Statement
 
 Develop a system that accepts a Context-Free Grammar (CFG) as input and determines whether the grammar is ambiguous by generating strings and identifying multiple distinct derivations for the same string. The system also identifies the smallest ambiguous string and classifies the type of language and ambiguity.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * HTML
 * CSS
@@ -46,7 +46,7 @@ Develop a system that accepts a Context-Free Grammar (CFG) as input and determin
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -57,7 +57,7 @@ project/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Download or clone the project
 2. Open `index.html` in any browser
@@ -66,7 +66,7 @@ project/
 
 ---
 
-## 🧪 Example Inputs
+## Example Inputs
 
 ### 1. Ambiguous Grammar
 
@@ -90,7 +90,7 @@ S -> aS | bS | a | b
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 Grammar is Ambiguous
@@ -107,7 +107,7 @@ Derivation 2: ...
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Analysis is **bounded by depth limits**
 * Some inherently ambiguous grammars may not be fully detected
@@ -115,16 +115,16 @@ Derivation 2: ...
 
 ---
 
-## 💡 Future Enhancements
+## Future Enhancements
 
-* 🌳 Parse tree visualization
-* 🔄 Automatic conversion to unambiguous grammar
-* 📈 Better ambiguity classification
-* 🌐 Deployment with backend support
+* Parse tree visualization
+* Automatic conversion to unambiguous grammar
+* Better ambiguity classification
+* Deployment with backend support
 
 ---
 
-## 🎯 Key Learning Outcomes
+## Key Learning Outcomes
 
 * Understanding ambiguity in CFG
 * Practical implementation of derivations
@@ -133,12 +133,12 @@ Derivation 2: ...
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Tharun Reddy**
 
 ---
 
-## 📌 Note
+## Note
 
 This project focuses on **logic and theory implementation**, not UI complexity, making it simple yet conceptually powerful.
